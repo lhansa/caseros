@@ -1,0 +1,13 @@
+name: caseros
+title: caseros
+username:
+account: lhansa
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7649776
+bundleId: 6522197
+url: https://lhansa.shinyapps.io/caseros/
+when: 1668629450.8813
+lastSyncTime: 1668629450.88131
+asMultiple: FALSE
+asStatic: FALSE

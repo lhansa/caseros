@@ -9,8 +9,12 @@ app_ui <- function(request) {
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # Your application UI logic
-    fluidPage(
-      h1("caseros")
+    fillPage(
+      tags$style(type = "text/css", "html, body {width:100%;height:100%}"),
+
+      showMapUI("main_map"),
+      inputReviewUI("panel_review"),
+      showMarkerUI("main_map")
     )
   )
 }
