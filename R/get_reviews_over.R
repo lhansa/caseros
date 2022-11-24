@@ -11,7 +11,7 @@
 #' @examples get_reviews_over(5)
 get_reviews_over <- function(points) {
 
-  df <- readRDS("~/Projects/caseros/inst/extdata/locs.rds")
+  df <- readRDS("inst/extdata/locs.rds")
   subset(
     df,
     mark >= points,

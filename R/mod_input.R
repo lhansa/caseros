@@ -42,7 +42,8 @@ inputReviewUI <- function(id) {
       placeholder = "Tus impresiones"
     ),
     actionButton(NS(id, "add_marker"),
-                 label = "A\u00f1ade la valoraci\u00f3n")
+                 label = "A\u00f1ade la valoraci\u00f3n"),
+    HTML("</br><b>Todos los datos que ves aquí son inventados.</b>")
   )
 
   # )
